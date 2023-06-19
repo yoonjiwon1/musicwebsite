@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Post</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1124px;
+    }
+    .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    img {
+        display: inline;
+    }
+    #menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 30px;
+    }
+    #menu li {
+         margin-left: 30px;
+    }
+    #menu li a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .catagory {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        background-color: aliceblue;
+    }
+    .catagory a {
+        text-decoration: none;
+        color: black;
+        line-height: 30px;
+        margin-right: 20px;
+        padding-left: 50px;
+    }   
+    .catagory a:hover {
+        color: blue;
+    }
+    .pic{
+        height: 450px;
+        position: relative;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .pic::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("https://image.musinsa.com/mfile_s01/2022/02/21/b9bb02cbd6cdfb7593396cffa42e8cd8160924.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center center;
+        filter: brightness(70%);
+    }
+    .pic p{
+        position: relative;
+        z-index: 2;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 28px;
+        text-align: center;
+    }
+    .title{
+        margin-left: 80px;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .mid-pic{
+        margin-left: 80px;
+        margin-right: 50px;
+        float: left;
+    }
+    .mid-pic2{
+        float: left;
+    }
+    .letter{
+        clear: left;
+        font-size: 16px;
+        width: 880px;
+        height: 120px;
+        margin-left: 80px;
+        padding-top: 8px;
+        font-family: 'Inter', sans-serif;
+    }
+    .mv{
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .mv h1{
+        font-size: 20px;
+    }
+    .mvpic{
+        margin-left: 80px;
+    }
+    .footer{
+        background-color:#f8f9fa;
+        text-align: center;
+    }
+    .footer p{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        color:#AAAAAA;
+        font-size: 12px;
+        padding-top: 40px;
+    }
+    .footer .image-container {
+        display: inline-block;
+        margin-right:  5px;
+        margin-bottom: 40px;
+    }
+</style>
+
+<body>
+<div class="logo">
+        <img src="C:\Users\yoonj\Desktop\웹사이트\logo.JPG" width="210px" height="45px">
+        <ul id="menu">
+            <li><a href="C:\Users\yoonj\Desktop\웹사이트\main.html">Home</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#"><img src="C:\Users\yoonj\Desktop\웹사이트\search_FILL0_wght400_GRAD0_opsz48.png" width="30px" height="30px"></a></li>
+        </ul>
+    </div>
+
+    <div class="catagory">
+        <a class="Dance" href="C:\Users\yoonj\Desktop\웹사이트\dance.html">Dacne</a>
+        <a href="#">Ballad</a>
+        <a href="#">Rap/Hip-Hop</a>
+        <a href="#">R&B/Soul</a>
+        <a href="#">Indi Music</a>
+    </div>
+
+    <div class="pic">
+        <p>믿고듣는 목소리, <br> 폴킴</p>
+    </div>
+
+    <div class="title">
+        <h1>설레는 봄, 싱그러운 여름의 문을 여는 폴킴의 신곡 [한강에서]</h1>
+    </div>
+
+    <div class="mid-pic">
+        <img src="https://image.bugsm.co.kr/album/images/500/40868/4086865.jpg" width="400px" height="380px">
+    </div>
+
+    <div class="mid-pic2">
+        <img src="https://cdnimg.melon.co.kr/resource/image/cds/musicstory/imgUrl20230524112227286.jpg" width="500px" height="380px">
+    </div>
+
+    <div class="letter">
+        <p>‘한강에서 (Feat. BIG Naughty)’는 한강에서 벌어지는 청춘 남녀의 풋풋하고 설렘 가득한 썸 타는 과정을 담은 곡으로<br> 청량하고 트렌드 한 비트와 
+            마음을 살랑살랑하게 만드는 중독적인 멜로디가 돋보이는 곡이다. 폴킴만의 부드러운 목소리에 BIG Naughty(서동현)의 유니크한 싱잉 랩이 더해져 곡의 완성도를 높였다.</p>
+    </div>
+
+    <div class="mv">
+        <h1>Offical M/V</h1>
+    </div>
+
+    <div class="mvpic">
+        <a href="https://www.youtube.com/watch?v=YXZl-_xSzMQ&vl=ko">
+            <img src="C:\Users\yoonj\Desktop\웹사이트 기획\a.JPG" alt="movie-site" width="920px" height="215px">
+        </a>
+    </div>
+
+    <div class="letter">
+        <p>연애를 시작한 지 일주일이 채 되지 않은 연인의 감정선, 그 농도를  녹였다. 사랑이라기엔 너무 이르고 ‘썸’보다 진한 감정을 배경으로 풀어냈다. 
+            봄과 여름 사이에 어울리는 곡이 될 것 같다. [엘르 인터뷰 중 - 폴킴]</p>
+    </div>
+
+    <div class="footer">
+        <p>
+            Copyright Music Box Crop. All Rights Reserved
+        </p>
+        <div class="image-container">
+            <a href="#"><img src="https://e7.pngegg.com/pngimages/1019/57/png-clipart-computer-icons-instagram-miscellaneous-rectangle.png" width="30px" height="30px"></a>
+        </div>
+        <div class="image-container">
+            <a href="#"><img src="https://i.pinimg.com/originals/43/bb/91/43bb91aa0bd9a847f1cd9bbb413ab980.png" width="30px" height="30px"></a>
+        </div>
+        <div class="image-container">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/107/107195.png" width="28px" height="28px"></a>
+        </div>
+        <div class="image-container">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/152/152810.png" width="28px" height="28px"></a>
+        </div>
+    </div>
+</body>
+</html>
